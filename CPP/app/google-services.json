@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "303367918851",
+    "firebase_url": "https://letscommunicateapp-default-rtdb.firebaseio.com",
+    "project_id": "letscommunicateapp",
+    "storage_bucket": "letscommunicateapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303367918851:android:bc490765ac1d3b611f8536",
+        "android_client_info": {
+          "package_name": "com.example.cppmp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCj3PJC_GWm95wPH8RwET6ZhGimem6AmKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303367918851:android:65eebe9baf492f871f8536",
+        "android_client_info": {
+          "package_name": "com.example.imagepro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCj3PJC_GWm95wPH8RwET6ZhGimem6AmKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303367918851:android:6e334a1d12db4d3e1f8536",
+        "android_client_info": {
+          "package_name": "com.prac.cppmp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCj3PJC_GWm95wPH8RwET6ZhGimem6AmKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

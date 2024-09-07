@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage">
+
+    <TextView
+        android:id="@+id/intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello User !"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_marginTop="40sp"
+        android:layout_marginLeft="40sp"/>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:clickable="true"
+        android:id="@+id/opencam"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_below="@id/intro"
+        android:layout_marginTop="30sp"
+        android:layout_marginHorizontal="30sp"
+        android:src="@drawable/img_5"
+        android:scaleType="centerCrop"
+        android:elevation="10dp"
+        app:shapeAppearance="@style/roundedimage"/>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:clickable="true"
+        android:id="@+id/openlist"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_below="@id/opencam"
+        android:layout_marginTop="30sp"
+        android:layout_marginHorizontal="30sp"
+        android:src="@drawable/img_8"
+        android:scaleType="centerCrop"
+        android:elevation="10dp"
+        app:shapeAppearance="@style/roundedimage"/>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:clickable="true"
+        android:id="@+id/openutube"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_below="@id/openlist"
+        android:layout_marginTop="30sp"
+        android:layout_marginHorizontal="30sp"
+        android:src="@drawable/img_9"
+        android:scaleType="centerCrop"
+        android:elevation="10dp"
+        app:shapeAppearance="@style/roundedimage"/>
+
+</RelativeLayout>
