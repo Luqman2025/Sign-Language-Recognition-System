@@ -26,7 +26,6 @@
 - Android Gradle project with the Gradle wrapper scripts: `gradlew`, `gradlew.bat`.
 - Android Gradle Plugin version: 7.4.2.
 - compileSdkVersion: 34, minSdkVersion: 21, targetSdkVersion: 29.
-- No additional run instructions are present in the repository.
 
 ## Dependencies
 - TensorFlow Lite: `tensorflow-lite-metadata`, `tensorflow-lite-gpu`, `tensorflow-lite-support`, `tensorflow-lite-task-vision`, `tensorflow-lite-task-text`
@@ -44,8 +43,6 @@
 ## Result video
 - [resultvideo.mp4](resultvideo.mp4)
 
-## License
-- No LICENSE file is present in the repository.
 
 ## Credits
 - Dependencies listed above are used in this project.
