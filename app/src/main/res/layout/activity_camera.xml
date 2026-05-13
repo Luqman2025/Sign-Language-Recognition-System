@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/learnsigngradiemt">
+
+    <LinearLayout
+        android:id="@+id/sentence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10sp"
+        android:layout_marginHorizontal="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SENTENCE : "
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/word"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:hint="Add Letters"
+            android:textColorHint="@color/white"
+            android:editable="false"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_above="@id/buttons"
+        android:layout_below="@id/sentence"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <org.opencv.android.JavaCameraView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/frame_Surface"/>
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/speech"
+        android:layout_marginHorizontal="0sp"
+        android:weightSum="3">
+        <Button
+            android:layout_weight="1"
+            android:elevation="15dp"
+            android:id="@+id/add"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/base"
+            android:textStyle="bold"
+            android:text="ADD"/>
+
+        <Button
+            android:layout_weight="1"
+            android:elevation="15dp"
+            android:id="@+id/space"
+            android:layout_width="130dp"
+            android:layout_marginHorizontal="5dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/base"
+            android:textStyle="bold"
+            android:text="SPACE"/>
+
+        <Button
+            android:elevation="15dp"
+            android:layout_weight="1"
+            android:id="@+id/remove"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/base"
+            android:textStyle="bold"
+            android:text="REMOVE"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="20sp"
+        android:layout_height="wrap_content"
+        android:text="Hear The Sentence"
+        android:textSize="18sp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/base"
+        android:textStyle="bold"
+        android:id="@+id/speech"
+        android:elevation="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"/>
+</RelativeLayout>

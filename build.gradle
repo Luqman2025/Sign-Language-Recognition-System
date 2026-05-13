@@ -1,0 +1,20 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()   // ✅ replace jcenter
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:7.4.2"  // ✅ updated
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()   // ✅ replace jcenter
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
